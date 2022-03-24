@@ -135,7 +135,7 @@ nav .search-box .bx-search {
   position: absolute;
   height: 40px;
   width: 40px;
-  background: #2697ff;
+  background: #11580a;
   right: 5px;
   top: 50%;
   transform: translateY(-50%);
@@ -262,7 +262,7 @@ nav .profile-details i {
 
 /* left box */
 .home-content .sales-boxes .recent-sales {
-  width: 65%;
+  width: 100%;
   background: #fff;
   padding: 20px 30px;
   margin: 0 20px;
@@ -310,6 +310,26 @@ nav .profile-details i {
 }
 .sales-boxes .box .button a:hover {
   background: #0d3073;
+}
+
+.transaction-details-section table{
+  width: 100%;
+  border: 1px solid #11580a;
+  border-collapse: collapse;
+}
+
+.transaction-details-section table thead{
+  background-color: #11580a;
+  color: white;
+}
+
+.transaction-details-section table thead th{
+  text-align: left;
+  padding: 0.5rem 1rem;
+}
+
+.transaction-details-section table tbody td{
+  padding: 0.5rem 1rem;
 }
 
 /* Right box */
