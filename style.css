@@ -51,10 +51,10 @@
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li a.active {
-  background: #081d45;
+  background: #08450b;
 }
 .sidebar .nav-links li a:hover {
-  background: #081d45;
+  background: #084510;
 }
 .sidebar .nav-links li i {
   min-width: 60px;
